@@ -86,7 +86,7 @@ li a:hover:not(.active) {
     top: 75px; 
     left: 26%; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+    text-align: justify;
 }
 
 #nameinput {
@@ -110,6 +110,12 @@ li a:hover:not(.active) {
 #heading {
     color: #4aaaa5;
     font-size: 29px;
+}
+
+button {
+    background-color: #4aaaa5;
+    float: left;
+    position: relative;
 }
 
 /* #hangman {
@@ -145,6 +151,9 @@ img {
     width: 125px;
     height: 125px;
     margin:8px;
+    float: left;
+    position: relative;
+    top: 35%;
 }
 
 #footer {
